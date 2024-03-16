@@ -1,0 +1,19 @@
+function updateSlider(slider, index) {
+    var colors = ["darkgreen", "green" , "lightgreen", "blue", "orangered" , "coral", "red"];
+    var texts = ["Agree", "Slightly Agree", "Less Agree", "Neutral", "Less Disagree", "Slightly Disagree", "Disagree"];
+    var value = slider.value;
+    var colorIndex = Math.min(Math.floor(value / 10), 6);
+
+    slider.style.background = colors[colorIndex];
+    para[index].innerHTML = texts[colorIndex];
+    para[index].style.color = colors[colorIndex];
+  }
+
+  var volumeSliders = document.querySelectorAll(".volume-slider");
+  var para = document.querySelectorAll(".para");
+
+  volumeSliders.forEach(function(slider, index) {
+    slider.oninput = function() {
+      updateSlider(this, index);
+    };
+  });
