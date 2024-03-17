@@ -2,7 +2,7 @@ function updateSlider(slider, index) {
     var colors = ["darkgreen", "green" , "lightgreen", "blue", "orangered" , "coral", "red"];
     var texts = ["Agree", "Slightly Agree", "Less Agree", "Neutral", "Less Disagree", "Slightly Disagree", "Disagree"];
     var value = slider.value;
-    var colorIndex = Math.min(Math.floor(value / 10), 6);
+    var colorIndex = Math.min(Math.floor(value / 14), 6);
 
     slider.style.background = colors[colorIndex];
     para[index].innerHTML = texts[colorIndex];
