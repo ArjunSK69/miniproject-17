@@ -1,0 +1,228 @@
+{% extends "layout.htm" %}
+{% block content %}
+    <!-- carousel section -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item c-item active">
+            <img src="https://img.freepik.com/free-photo/young-woman-teacher-wearing-glasses-standing-near-blackboard-classroom-explaining-lesson-showing-thumb-up-smiling-confident_141793-133239.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="c-head">TEACHER</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://img.freepik.com/free-photo/portrait-smiling-young-doctors-standing-together-portrait-medical-staff-inside-modern-hospital-smiling-camera_657921-885.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="c-head">DOCTOR</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://img.freepik.com/free-photo/people-office-analyzing-checking-finance-graphs_23-2150377148.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="c-head">ACCOUNTANT</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://img.freepik.com/free-photo/handsome-business-man-engineer-hard-hat-building_1303-21147.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <p class="c-head">ARCHITECTS</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="banner-bg-section d-flex flex-column justify-content-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-section pt-2">
+                <h1 class="main-head text-center pt-2">Welcome To <br><span class="">Career Crafter</span></h1>
+                <p class="text-center main-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam saepe sed molestiae molestias voluptatibus, quos obcaecati numquam asperiores. Enim ad ex eum pariatur temporibus repellendus? Corporis omnis quisquam pariatur odio.</p>
+            </div>
+            <div class="text-center">
+              <a href="{{ url_for('predict') }}" class="btn btn-outline-info main-btn">Test Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="description-section pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="main-head">Description</h1>
+            <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt in, asperiores nam nisi molestias culpa dolores, sed, deleniti voluptas architecto sint voluptates aperiam incidunt consectetur nobis officiis eveniet minus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam molestias aspernatur autem reiciendis dignissimos. Repellat rerum ducimus dicta, aperiam, illo quibusdam soluta praesentium tenetur nemo consectetur necessitatibus ullam voluptatibus! Quaerat.</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1617.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">INFP</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1616.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">INFJ</h5> 
+                <p class="card-text">This is a short card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">INTP</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1528.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">INTJ</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-campaigner-character-flat-vector-illustration_529344-1502.jpg" class="card-img-top" alt="...">
+              <div class="card-body"> 
+                <h5 class="card-title">ENFP</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/enfj-mbti-personality-type-isometric-composition-with-protagonist-female-character-science-symbols-vector-illustration_98292-8976.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ENFJ</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/free-vector/isometric-entp-mbti-type-composition-with-creative-female-character-fixing-robot-3d-vector-illustration_98292-9105.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ENTP</h5> 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-socionics-concept-analysts-character-entj-art_503161-350.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ENTJ</h5> 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">:</h5>
+                ISFP: 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">:</h5>
+                ISFJ: 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1607.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ISTP</h5> 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1520.jpg?w=740" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ISTJ</h5> 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1526.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ESFP</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1516.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ESFJ</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/free-vector/estp-mbti-personality-type-isometric-composition-with-female-character-doing-pottery-3d-vector-illustration_98292-8809.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ESTP</h5> 
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://img.freepik.com/premium-vector/mbti-person-types-concept-socionics-mbti-personality-test-flat-vector-illustration_529344-1605.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ESTJ</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="about-section pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="main-head">About</h1>
+            <p class="main-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis mollitia cupiditate expedita, enim harum, vitae earum dolor ipsa repellendus laborum, deleniti explicabo optio illo neque unde voluptates. Obcaecati, cupiditate consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto nostrum, eligendi sapiente accusamus explicabo eos commodi inventore optio laborum qui! Ipsam maiores assumenda optio eius eos? Natus, necessitatibus fuga? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio vero sunt laudantium reprehenderit nesciunt eaque dolorem, quo magnam obcaecati. Facilis eius eum, repellendus aliquid distinctio molestiae est at odit ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime iusto officiis exercitationem possimus aliquam, omnis nam sed dicta et illo beatae praesentium minima, perspiciatis ab. Id dolorem quos nisi!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}
+

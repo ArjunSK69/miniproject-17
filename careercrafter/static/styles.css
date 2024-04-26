@@ -1,0 +1,291 @@
+/* home-section */
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background: linear-gradient(to bottom, #a1ffce, #faffd1);
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  background-color: transparent;
+  transition: background-color 200ms linear;
+}
+.navbar.scrolled {
+  background-color: #333;
+}
+.navbar.scrolled a{
+  color: azure;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar-nav a{
+  color: black;
+}
+.logo{
+  font-size: large;
+}
+.banner-bg-section{
+  margin-bottom: 0;
+  height: 50vh;
+}
+.main-head{
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.main-head span{
+  font-size: 1.5em;
+  color: #ff0066;
+}
+.main-p{
+  color: rgba(50, 50, 50, 0.8);
+  line-height: 2em;   
+}
+.main-p2{
+  font-size: small;
+}
+.main-btn{
+  width: 30%;
+}
+.c-item{
+  height: 375px;
+}
+.c-img{
+  height: 100%;
+  object-fit: cover;
+}
+.c-head{
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.8px;
+}
+
+/*login*/
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 66%;
+  border-radius: 20px;
+}
+
+.log-box{
+  height: 90vh;
+}
+
+
+
+/* index-section */
+  
+.volume-slider {
+  appearance: none;
+  width: 180px;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.volume-slider:hover {
+  opacity: 1;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: black;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: silver;
+  border-radius: 20px;
+}
+.top-msg{
+  user-select: none;
+}
+.q-box{
+  background-color: rgb(234, 217, 220);
+  padding: 21px 10px 32px;
+  border-bottom: 1px solid #7484b2;
+  margin: 10px;
+  border-radius: 10px;
+}
+.q-box .question{
+  font-size: 1.5em;
+}
+.q-box .para{
+  font-size: 1em;
+  margin-top: 3px;
+  user-select: none;
+}
+.rowbox{
+  max-width: 980px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 48px;
+}
+.q-box:hover{
+  background-color: #ffffff;
+}
+.header{
+  position: sticky;
+  top: 56px;
+  background-color: rgba(30,44,143,255);
+  color: #d3d3d3;
+  font-size: medium;
+  user-select: none;
+  z-index: 1029;
+}
+/* .rowback{
+  background-color: rgba(221,141,140,255);
+} */
+.header .point::after{
+  content: ".";
+  position: relative;
+  left: 5px;
+  bottom: 4px;
+  font-size: larger;
+  padding: 10px;
+  user-select: none;
+
+}
+
+
+/* result-section */
+
+.result-container {
+  font-family: Arial, sans-serif;
+  height: 90vh;
+  }
+
+.result-box {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(234, 217, 220);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-head {
+  text-align: center;
+  color: #333;
+}
+
+.result-p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.result-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.result-li {
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 321px){
+  .header{
+      font-size: x-small;
+  }
+  .q-box .question{
+      font-size: small;
+  }
+  .top-msg{
+      font-size: small;
+  }
+  .rowback{
+      padding: 10px;
+  }
+  .rowbox{
+      padding: 10px;
+  }
+  .q-box{
+      padding: 10px 8px 15px;
+  }
+  .q-box .para{
+      font-size: small;
+  }
+}
+@media screen and (max-width: 376px){
+  .header{
+      font-size: x-small;
+  }
+  .q-box .question{
+      font-size: small;
+  }
+  .top-msg{
+      font-size: small;
+  }
+  .rowback{
+      padding: 10px;
+  }
+  .rowbox{
+      padding: 10px;
+  }
+  .q-box{
+      padding: 10px 8px 15px;
+  }
+  .q-box .para{
+      font-size: small;
+  }
+}
+@media screen and (max-width: 426px){
+  .header{
+      font-size: x-small;
+  }
+  .q-box .question{
+      font-size: small;
+  }
+  .top-msg{
+      font-size: small;
+  }
+  .rowback{
+      padding: 10px;
+  }
+  .rowbox{
+      padding: 10px;
+  }
+  .q-box{
+      padding: 10px 8px 15px;
+  }
+  .q-box .para{
+      font-size: small;
+  }
+}
