@@ -1,0 +1,5 @@
+*.csv
+careercrafter/venv/
+careercrafter/*.env
+careercrafter/__pycache__/
+bootstrap-5.3.3-dist/
