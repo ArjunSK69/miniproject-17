@@ -1,18 +1,26 @@
 {% extends "layout.htm" %}
 {% block content %}
     <div class="result-container d-flex flex-column justify-content-center">
-        <div class="container mt-4 result-box">
+        <div class="mt-4 result-box">
             <div class="row justify-content-center"> <!-- Center the container horizontally -->
                 <div class="col-lg-8"> <!-- Set the maximum width of the container -->
-                    <h1 class=" result-head text-center">Personality and Career Prediction Result</h1>
-                    <p class="lead text-center">Your predicted personality type is: <strong>{{ predicted_personality_type }}</strong></p>
+                    <h1 class="text-center">Personality and Career Prediction Result</h1>
+                    <p class="text-center">Your predicted personality type is: <strong>{{ predicted_personality_type }}</strong></p>
+                    <h5>Description</h5>
+                    <p class="">{{ description }}</p>
                     <div class="text-center mb-4">
                         <p class="result-p lead">Predicted Careers:</p>
-                        <ul class="result-ul list-group">
+                        <div class="result-ul list-group">
                             {% for career in predicted_career %}
-                                <li class="result-li list-group-item">{{ career }}</li>
+                                <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
                             {% endfor %}
-                        </ul>
+                            {% for career in predicted_career %}
+                                <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
+                            {% endfor %}
+                            {% for career in predicted_career %}
+                                <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>

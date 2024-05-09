@@ -1,11 +1,15 @@
 {% extends "layout.htm" %}
 {% block content %}
-    <div class="log-box d-flex flex-row justify-content-center">
-        <div class="content-section mt-5">
-            <form method="POST" action="">
+<div class="sign-section d-flex flex-row justify-content-center">
+    <div class="sign-box d-flex flex-column justify-content-center">
+        <div class="shadow-lg mt-5 rounded-4 bg-secondary d-flex flex-md-row">
+            <div class="w-50 sign-img-box d-none d-md-block">
+                <img src="../static/register.jpeg" alt="" class="w-100 sign-img">
+            </div>
+            <form method="POST" action="" class="sign-form p-3 text-white">
                 {{ form.hidden_tag() }}
                 <fieldset class="form-group">
-                    <legend class="border-bottom mb-4">Register</legend>
+                    <legend class="text-center border-bottom mb-4">Register</legend>
                     <div class="form-group">
                         {{ form.username.label(class="form-control-label") }}
 
@@ -61,14 +65,15 @@
                     </div>
                 </fieldset>
                 <div class="form-group mt-2 mb-2 text-center">
-                    {{ form.submit(class="btn btn-outline-info w-25") }}
+                    {{ form.submit(class="btn btn-dark w-50") }}
                 </div>
                 <div class="border-top text-center">
                     <small class="text-muted">
-                        Already Have An Account? <a class="ml-2" href="{{ url_for('login') }}">Sign In</a>
+                        Already Have An Account. <a class="ml-2 text-light" href="{{ url_for('login') }}">Sign In</a>
                     </small>
                 </div>
             </form>
         </div>
     </div>
+</div>
 {% endblock content %}

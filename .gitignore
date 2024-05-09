@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+careercrafter/*.env
+careercrafter/__pycache__/
+careercrafter/venv/
+
+
+
