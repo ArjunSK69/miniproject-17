@@ -1,18 +1,20 @@
 from flask import render_template, url_for, flash, redirect, request
 from careercrafter import app, db, bcrypt, mail
 from careercrafter.forms import RegistrationForm, LoginForm, RequestResetForm, ResetPasswordForm, VerifyOtpForm
-from careercrafter.models import users
+from careercrafter.models import users, questions, careers, d
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
 import random
 import pandas as pd
 from careercrafter.prediction import X_personality, knn_personality, encoder, career_dataset
+ 
 
 
 @app.route('/')
 @app.route('/home')
 def home():
-    return render_template('home.htm')
+    question = questions.query.all()
+    return render_template('home.htm', question=question)
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -55,7 +57,11 @@ def register():
 @app.route('/account')
 @login_required
 def account():
-    return render_template('account.htm', title='Account')
+    if current_user.is_authenticated:
+        predicted_personality_type = current_user.personality_type
+    predicted_career = career_dataset[career_dataset['Personality Type'] == predicted_personality_type][
+            'Career'].tolist()
+    return render_template('account.htm', title='Account', predicted_career=predicted_career)
 
 
 # Function to generate OTP
@@ -113,7 +119,7 @@ def reset_password():
                 new_password = form.password.data
                 hashed_password = bcrypt.generate_password_hash(new_password).decode('utf-8')
                 user.password = hashed_password
-                user.otp = None  # Optionally, you can clear the OTP here
+                user.otp = None 
                 db.session.commit()
                 flash('Password reset successful. You can now login with your new password.')
                 return redirect(url_for('login'))
@@ -163,17 +169,25 @@ def predict():
         predicted_career = career_dataset[career_dataset['Personality Type'] == predicted_personality_type][
             'Career'].tolist()
         
+        personality_details = d.query.filter_by(personality_type=predicted_personality_type).first()
+        description = personality_details.description if personality_details else "Not found."
+
         # add_personality_to_user(email, predicted_personality_type)
         if current_user.is_authenticated:
             email = current_user.email
             add_personality_to_user(email, predicted_personality_type)
 
         return render_template('result.htm', predicted_personality_type=predicted_personality_type,
+                               description=description,
                                predicted_career=predicted_career)
     return render_template('index.htm', title='Personality Test')
-    
 
 
 @app.route('/result')
 def result():
-    return render_template('result.htm')
+    return render_template('result.htm', title='Careers')
+
+@app.route('/result/<string:title>')
+def career(title):
+    career = careers.query.get_or_404(title)
+    return render_template('career.html', title=career.title, career=career)
