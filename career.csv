@@ -1,84 +1,556 @@
 Personality Type,Career
-ESTJ,Accountant
-ESTJ,Computer Programmer
-ESTJ,Doctor
-ESTJ,Lawyer
-ESTJ,Scientist
-ESFJ,Administrator
-ESFJ,Human Resources
-ESFJ,Teacher 
-ESFJ,Nurse
-ESFJ,Researcher
-ISTJ,Computer Specialist
-ISTJ,Detective
-ISTJ,Financial officer
-ISTJ,Police
-ISTJ,System Analyst
-ISTJ,Dentist
-ISFJ,Economist
-ISFJ,Business Analyst
-ISFJ,Entrepreneur
-ISFJ,Designer
-ISFJ,Banker
-ISFJ,Military
-ESTP,Engineer
-ESTP,Paramedic
-ESTP,Network specialist
-ESTP,Firefighter
-ESTP,Project Manager
-ESTP,Sales
-ESFP,Actor
-ESFP,Fashion Designer
-ESFP,Social worker
-ESFP,Musician
-ESFP,Interior decorator
-ISTP,Athlete
-ISTP,Forensic Pathologist
-ISTP,Pilot
-ISTP,Sales Representative
-ISTP,Construction Worker
-ISFP,Chef
-ISFP,Composer
-ISFP,Artist
-ISFP,Forest Ranger
-ISFP,Veterinarian
-ENTJ,Business Administrator
-ENTJ,Computer Consultant
-ENTJ,Corporate executive Officer
-ENTJ,Judge
-ENTJ,Poltician
-ENTP,Designer
-ENTP,Psychiatrist
-ENTP,Writer
-ENTP,Consultant
+ENFP,Advertising Account Manager
+ENFP,Anthropologist
+ENFP,Broadcast News Analyst
+ENFP,Career Counselor
+ENFP,Chemist
+ENFP,Child Welfare Counselor
+ENFP,Chiropractor
+ENFP,Coach
+ENFP,Computer Programmer
+ENFP,Computer Systems Analyst
+INFP,Actor
+INFP,Architect
+INFP,Artist
+INFP,Career Counselor
+INFP,Child Life Specialist
+INFP,Clinical Psychologist
+INFP,Coach
+INFP,College Professor
+INFP,Composer
+ENFJ,Advertising Account Executive
+ENFJ,Career Counselor
+ENFJ,Child Welfare Worker
+ENFJ,Chiropractor
+ENFJ,Coach
+ENFJ,University Administrator
+ENFJ,College Professor
+ENFJ,Composer
+ENFJ,Dental Hygienist
+ENFJ,Desktop Publisher
+ENFJ,Nutritionist
+ENFJ,Editor
+ENFJ,Event Planner
+ENFJ,Graphic Designer
+ENFJ,Guidance Counselor
+ENFJ,Hotel Manager
+ENFJ,Human Resources Specialist
+ENFJ,Translator
+ENFJ,Librarian
+ENFJ,Marketing Manager
+ENFJ,Multimedia Producer
+ENFJ,Music Director
+ENFJ,Occupational Therapist
+ENFJ,Optometrist
+ENFJ,Probation Officer
+ENFJ,Psychologist
+ENFJ,Public Health Educator
+ENFJ,Public Relations Specialist
+ENFJ,Recreational Director
+ENFJ,Reporter
+ENFJ,Hotel Manager
+ENFJ,Sales Manager
+ENFJ,Social Worker
+ENFJ,Sociologist
+ENFJ,Speech-Language Pathologist
+ENFJ,Travel Agent
+INFJ,Architect
+INFJ,Artist
+INFJ,Career Counselor
+INFJ,Child Life Specialist
+INFJ,Chiropractor
+INFJ,Coach
+INFJ,Desktop Publisher
+INFJ,Nutritionist
+INFJ,Lawyer
+INFJ,Editor
+INFJ,Health Care Administrator
+INFJ,Interior Designer
+INFJ,Translator
+INFJ,Legal Mediator
+INFJ,Librarian
+INFJ,Doctor
+INFJ,Musician
+INFJ,Occupational Therapist
+INFJ,Pharmacist
+INFJ,Photographer
+INFJ,Psychologist
+INFJ,Public Health Educator
+INFJ,Social Worker
+INFJ,Teacher
+INFJ,Speech-Language Pathologist
+ENTP,Aeronautical Engineer
+ENTP,Lawyer
+ENTP,Broadcast News Analyst
+ENTP,Chiropractor
+ENTP,Coach
+ENTP,Computer Programmer
+ENTP,Computer Systems Analyst
+ENTP,Corrections Officer
+ENTP,Desktop Publisher
+ENTP,Detective
+ENTP,Environmental Engineer
+ENTP,Event Planner
+ENTP,Hotel Manager
+ENTP,Human Resources Manager
+ENTP,Lawyer
+ENTP,Optometrist
 ENTP,Photographer
-INTJ,Teacher 
-INTJ,Entrepreneur
-INTJ,Politician
-INTJ,Manager
-INTJ,System Analyst
+ENTP,Psychologist
+ENTP,Public Relations Specialist
+ENTP,Real Estate Broker
+ENTP,Reporter
+INTP,Anthropologist
 INTP,Archaeologist
 INTP,Architect
+INTP,Artist
+INTP,Astronomer
+INTP,Biomedical Engineer
+INTP,College Professor
+INTP,Animator
+INTP,Computer Engineer
+INTP,Computer Programmer
+INTP,Desktop Publisher
+INTP,Economist
+INTP,Dancer
+INTP,Financial Analyst
+INTP,Forester
+INTP,Geneticist
+INTP,Historian
+INTP,Translator
+INTP,Investigator
+INTP,Investment Banker
+INTP,Lawyer
 INTP,Legal Mediator
-INTP,Philosopher
-INTP,Interpretor
-ENFJ,Career counselor
-ENFJ,Social worker
-ENFJ,Diplomat
-ENFJ,Auditor
-ENFJ,Engineer
-ENFP,Art director
-ENFP,Economist
-ENFP,Journalist
-ENFP,Social scientist
+INTP,Mathematician
+INTP,Microbiologist
+INTP,Musician
+INTP,Network Administrator
+INTP,Neurologist
+INTP,Occupational Therapist
+INTP,Pharmacist
+INTP,Photographer
+INTP,Physicist
+INTP,Plastic Surgeon
+INTP,Psychiatrist
+INTP,Respiratory Therapist
+INTP,Veterinarian
+INTP,Web Developer
+ENTJ,Accountant
+ENTJ,Actor
+ENTJ,Advertising Account Manager
+ENTJ,Architect
+ENTJ,Chemical Engineer
+ENTJ,University Administrator
+ENTJ,Database Manager
+ENTJ,Dentist
+ENTJ,Economist
+ENTJ,Environmental Engineer
+ENTJ,Human Resources Manager
+ENTJ,Journalist
+ENTJ,Lawyer
+ENTJ,Network Administrator
+ENTJ,Photographer
+ENTJ,Physician
+ENTJ,Pilot
+ENTJ,Political Scientist
+ENTJ,Psychologist
+ENTJ,Sales manager
+ENTJ,Teacher
+INTJ,Aerospace Engineer
+INTJ,Animator
+INTJ,Anthropologist
+INTJ,Architect
+INTJ,Artist
+INTJ,Archivist
+INTJ,Astronomer
+INTJ,Lawyer
+INTJ,Auditor
+INTJ,Broadcast Engineer
+INTJ,Budget Analyst
+INTJ,Business Analyst
+INTJ,Cardiologist
+INTJ,Cardiovascular Technician
+INTJ,Chemical Engineer
+INTJ,Civil Engineer
+INTJ,College Professor
+INTJ,Computer Engineer
+INTJ,Computer Programmer
+INTJ,Computer Systems Analyst
+INTJ,Corrections Officer
+INTJ,Curator
+INTJ,Database Manager
+INTJ,Dentist
+INTJ,Economist
+INTJ,Electronic Technician
+INTJ,Financial Analyst
+INTJ,Graphic Designer
+INTJ,Human Resource Manager
+INTJ,Lawyer
+INTJ,Mathematician
+INTJ,Musician
+INTJ,Network Administrator
+INTJ,Nuclear Engineer
+INTJ,Pharmacist
+INTJ,Photographer
+INTJ,Physicist
+INTJ,Pilot
+INTJ,Psychologist
+INTJ,Real Estate Appraiser
+INTJ,Surgeon
+INTJ,Systems Administrator
+INTJ,Systems Analyst
+INTJ,Teacher
+INTJ,Web Developer
+ESFJ,Accountant
+ESFJ,Actor
+ESFJ,Aerobics Instructor
+ESFJ,Coach
+ESFJ,Bookkeeper
+ESFJ,Chemist
+ESFJ,Cosmetologist
+ESFJ,Customer Service Representative
+ESFJ,Dentist
+ESFJ,Dental Hygienist
+ESFJ,Nutritionist
+ESFJ,Family Physician
+ESFJ,Flight Attendant
+ESFJ,Food Service Manager
+ESFJ,Health Care Administrator
+ESFJ,Hospice Worker
+ESFJ,Hotel Manager
+ESFJ,Insurance Sales Agent
+ESFJ,Legal Mediator
+ESFJ,Nurse 
+ESFJ,Optometrist
+ESFJ,Personal Fitness Trainer
+ESFJ,Pharmacist
+ESFJ,Physical Therapist
+ESFJ,Detective
+ESFJ,Primary Care Physician
+ESFJ,Property Manager
+ESFJ,Public Relations Specialist
+ESFJ,Radiologic Technician
+ESFJ,Real Estate Broker
+ESFJ,Recreational Therapist
+ESFJ,Respiratory Therapist
+ESFJ,Teacher
+ESFJ,Secretary
+ESFJ,Social Worker
+ESFJ,Speech-Language Pathologist
+ESFJ,Teacher
+ESFJ,Translator
+ESFJ,Travel Agent
+ESFJ,Veterinarian
+ESTJ,Coach
+ESTJ,Auditor
+ESTJ,Bank Manager
+ESTJ,Budget Analyst
+ESTJ,Civil Engineer
+ESTJ,Clinical Technician
+ESTJ,Pilot
+ESTJ,Computer Systems Analyst
+ESTJ,Chef
+ESTJ,Dentist
+ESTJ,Insurance Sales Agent
+ESTJ,Lawyer
+ESTJ,Network Administrator
+ESTJ,Pharmacist
+ESTJ,Physician
+ESTJ,Detective
+ESTJ,Property Manager
+ESTJ,Public Relations Specialist
+ESTJ,Real Estate Agent
+ESTJ,Recreational Therapist
+ESTJ,Teacher
+ISFJ,Artist
+ISFJ,Coach
+ISFJ,Biologist
+ISFJ,Bookkeeper
+ISFJ,Botanist
+ISFJ,Computer Support Specialist
+ISFJ,Corrections Officer
+ISFJ,Curator
+ISFJ,Customer Service Representative
+ISFJ,Dental Hygienist
+ISFJ,Nutritionist
+ISFJ,Physician
+ISFJ,Historian
+ISFJ,Interior Designer
+ISFJ,Librarian
+ISFJ,Musician
+ISFJ,Nurse
+ISFJ,Occupational Therapist
+ISFJ,Dentist
+ISFJ,Pharmacist
+ISFJ,Real Estate Broker
+ISFJ,Respiratory Therapist
+ISFJ,Social Worker
+ISFJ,Speech Language Pathologist
+ISFJ,Teacher
+ISFJ,Veterinarian
+ISTJ,Accountant
+ISTJ,Actuary
+ISTJ,Architect
+ISTJ,Archivist
+ISTJ,Auditor
+ISTJ,Biomedical Technologist
+ISTJ,Computer Engineer
+ISTJ,Computer Programmer
+ISTJ,Construction Manager
+ISTJ,Corrections Officer
+ISTJ,Dentist
+ISTJ,Environmental Engineer
+ISTJ,Hardware/Software Tester
+ISTJ,Immigration and Customs Inspector
+ISTJ,Industrial Safety and Health Engineer
+ISTJ,Insurance Underwriter
+ISTJ,Judge
+ISTJ,Lab Technologist
+ISTJ,Landscape Architect
+ISTJ,Librarian
+ISTJ,Medical Records Technician
+ISTJ,Meteorologist
+ISTJ,Optometrist
+ISTJ,Dentist
+ISTJ,Pharmacist
+ISTJ,Physician
+ISTJ,Pilot
+ISTJ,Detective
+ISTJ,Probation Officer
+ISTJ,Real Estate Broker
+ISTJ,Teacher
+ISTJ,Statistician
+ISTJ,Surgeon
+ISTJ,Systems Analyst
+ISTJ,Tax Preparer and Examiner
+ISTJ,Veterinarian
+ESFP,Aerobics Instructor
+ESFP,Athletic Coach
+ESFP,Cardiovascular Technologist
+ESFP,Chef or Head Cook
+ESFP,Childcare Provider
+ESFP,Corrections Officerÿ
+ESFP,Dental Assistant
+ESFP,Dental Hygienist
+ESFP,Dietitian
+ESFP,Dog Trainer
+ESFP,Environmental Engineer
+ESFP,Film Producer
+ESFP,Geologist
+ESFP,Home Health Aide
+ESFP,Hospice Worker
+ESFP,Human Resources Manager
+ESFP,Insurance Sales Agent
+ESFP,Interior Designer
+ESFP,Landscape/Grounds Manager
+ESFP,Landscape Architect
+ESFP,Medical Technician
+ESFP,Musician
+ESFP,Occupational Therapist
+ESFP,Optometrist
+ESFP,Personal Fitness Trainer
+ESFP,Pharmacy Technician
+ESFP,Photographer
+ESFP,Physician
+ESFP,Podiatrist
+ESFP,Detective
+ESFP,Psychologist
+ESFP,Public Relations Specialist
+ESFP,Radiologic Technician
+ESFP,Real Estate Broker
+ESFP,Receptionist
+ESFP,Recreational Therapist
+ESFP,Respiratory Therapist
+ESFP,Social Worker
+ESFP,Speech-Language Pathologist
+ESFP,Travel Agent
+ESFP,Veterinarian
+ESTP,Actor
+ESTP,Air Traffic Controller
+ESTP,Artist
+ESTP,Auditor
+ESTP,Budget Analyst
+ESTP,Chef
+ESTP,Chiropractor
+ESTP,Civil Engineer
+ESTP,Coach
+ESTP,Computer Programmer
+ESTP,Construction/Building Inspector
+ESTP,Corrections Officer
+ESTP,Dancer
+ESTP,Detective
+ESTP,"Developer, Games"
+ESTP,Electrical Engineer
+ESTP,Emergency Medical Technician (EMT)
+ESTP,Financial Advisor
+ESTP,Personal Fitness Trainer
+ESTP,Forester
+ESTP,Industrial/Mechanical Engineer
+ESTP,Insurance Broker
+ESTP,Insurance Fraud Investigator
+ESTP,Laboratory Technologist
+ESTP,Landscape Architect
+ESTP,Marine Biologist
+ESTP,Musician
+ESTP,News Reporter
+ESTP,Paramedic
+ESTP,Pharmacist
+ESTP,Photographer
+ESTP,Pilot
+ESTP,Detective
+ESTP,Probation Officer
+ESTP,Professional Athlete
+ESTP,Property Manager
+ESTP,Real Estate Broker
+ESTP,Respiratory Therapist
+ESTP,Sportscaster
+ESTP,Surveyor
+ESTP,Teacher
+ESTP,Television Camera Operator
+ISFP,Air Traffic Controller
+ISFP,Archaeologist
+ISFP,Artist
+ISFP,Art Therapist
+ISFP,Bookkeeper
+ISFP,Animator
+ISFP,Chef
+ISFP,Coach 
+ISFP,Dancer
+ISFP,Dental Hygienist
+ISFP,Nutritionist
+ISFP,Fashion Designer
+ISFP,Filmmaker
+ISFP,Firefighter
+ISFP,Forester
+ISFP,Insurance Appraiser/Examiner
+ISFP,Insurance Fraud Investigator
+ISFP,Interior Designer
+ISFP,Jeweler
+ISFP,Landscape Architect
+ISFP,Legal Secretary
+ISFP,Librarian
+ISFP,Marine Biologist
+ISFP,Medical Technician
+ISFP,Curator
+ISFP,Musician
+ISFP,Nurse
+ISFP,Occupational Therapist
+ISFP,Optician
+ISFP,Optometrist
+ISFP,Paralegal
+ISFP,Pediatrician
+ISFP,Personal Fitness Trainer
+ISFP,Pharmacist
+ISFP,Physical Therapist
+ISFP,Physician
+ISFP,Pilot
+ISFP,Psychologist
+ISFP,Public Relations Specialist
+ISFP,Recreational Therapist
+ISFP,Social Worker
+ISFP,Speech-Language Pathologist
+ISFP,Surgeon
+ISFP,Surgical Technologist
+ISFP,Surveyor
+ISFP,Systems Analyst
+ISFP,Teacher
+ISFP,Translator
+ISFP,Veterinarian
+ISFP,Zoologist
+ISTP,Air Traffic Controller
+ISTP,Animal Trainer
+ISTP,Audiovisual Specialist
+ISTP,Automotive Products Retailer
+ISTP,Banker
+ISTP,Carpenter
+ISTP,Coach
+ISTP,Commercial Artist
+ISTP,Computer Engineer
+ISTP,Computer Programmer
+ISTP,Computer Support Specialist
+ISTP,Corporate Executive
+ISTP,Criminal Investigator
+ISTP,Dental Assistant
+ISTP,Dental Hygienist
+ISTP,Emergency Medical Technician (EMT)
+ISTP,Emergency Room Physician
+ISTP,"Engineer (Electrical, Mechanical, Civil)"
+ISTP,Exercise Physiologist
+ISTP,Firefighter
+ISTP,Forensic Science Technician
+ISTP,Home Network Installer
+ISTP,Information Services Specialists/Developers
+ISTP,Insurance Adjuster/ Appraiser/Examiner
+ISTP,"Intelligence Agent (FBI, CIA, Secret Service)"
+ISTP,Landscape Architect
+ISTP,Lawyer
+ISTP,Marine Biologist
+ISTP,Mechanic
+ISTP,Medical Technician
+ISTP,Military Officer
+ISTP,Optometrist
+ISTP,Paralegal
+ISTP,Park Naturalist
+ISTP,Pharmaceutical Salesperson
+ISTP,Photographer
+ISTP,Physical Therapist
+ISTP,Pilot
+ISTP,Railroad Worker
+ISTP,Detective
+ISTP,Corrections Officer
+ISTP,Purchasing Agent/Buyer
+ISTP,Respiratory Therapist
+ISTP,Software Engineer
+ISTP,Stock Broker
+ISTP,Surgical Technician
+ISTP,Surveyor
+ISTP,Systems Analyst
+ENFP,Corrections Officer
+ENFP,Costume Designer
+ENFP,Desktop Publisher
 ENFP,Nutritionist
-INFJ,Educational consultant
-INFJ,Entrepreneur
-INFJ,Doctor
-INFJ,Child development
-INFJ,Teacher 
-INFP,Architect
-INFP,Filmmaker
-INFP,Graphic  Designer
-INFP,Interpretor
-INFP,Physical therpist
+ENFP,Editor
+ENFP,Event Planner
+ENFP,Guidance Counselor
+ENFP,Human Resources Manager
+ENFP,Insurance Sales Agent
+ENFP,Interior Designer
+ENFP,Librarian
+ENFP,Medical Assistant
+ENFP,Musician
+ENFP,Occupational Therapist
+ENFP,Physical Therapist
+ENFP,Public Health Educator
+ENFP,Public Relations Specialist
+ENFP,Social Worker
+ENFP,Speech-Language Pathologist
+ENFP,TV Producer
+ENFP,Travel Agent
+ENFP,Urban/Regional Planner
+INFP,Curator
+INFP,Customer Relations Manager
+INFP,Desktop Publisher
+INFP,Nutritionist
+INFP,Editor
+INFP,Fashion Designer
+INFP,Film Editor
+INFP,Health Technician
+INFP,Home Health Social Worker
+INFP,Human Resources Specialist
+INFP,Industrial Organization Psychologist
+INFP,Interior Designer
+INFP,Journalist
+INFP,Labor Relations Specialist
+INFP,Legal Mediator
+INFP,Librarian
+INFP,Missionary
+INFP,Musician
+INFP,Occupational Therapist
+INFP,Physical Therapist
+INFP,Psychologist
+INFP,Public Health Educator
+INFP,Social Worker
+INFP,Teacher
+INFP,Speech-Language Pathologist
+INFP,Translator
