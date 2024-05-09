@@ -1,7 +1,7 @@
 {% extends "layout.htm" %}
 {% block content %}
     <div class="result-container d-flex flex-column justify-content-center">
-        <div class="mt-4 result-box">
+        <div class="mt-4 result-box mb-4">
             <div class="row justify-content-center"> <!-- Center the container horizontally -->
                 <div class="col-lg-8"> <!-- Set the maximum width of the container -->
                     <h1 class="text-center">Personality and Career Prediction Result</h1>
@@ -11,12 +11,6 @@
                     <div class="text-center mb-4">
                         <p class="result-p lead">Predicted Careers:</p>
                         <div class="result-ul list-group">
-                            {% for career in predicted_career %}
-                                <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
-                            {% endfor %}
-                            {% for career in predicted_career %}
-                                <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
-                            {% endfor %}
                             {% for career in predicted_career %}
                                 <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>
                             {% endfor %}

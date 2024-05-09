@@ -180,14 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-.rounded-element {
-  border-radius: 50%; /* Makes the element rounded */
-  animation: rotate 2s infinite linear;
-}
-
 .account-section{
-  height: 100vh;
   margin-top: 120px;
 }
 .account-btn{
