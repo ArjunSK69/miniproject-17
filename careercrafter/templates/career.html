@@ -1,0 +1,32 @@
+{% extends "layout.htm" %}
+{% block content %}
+    <div class="career-section">
+        <h1 class="text-center bg-dark text-white p-5">{{ career.title }}</h1>
+        <div class="p-2">
+            <div class="mt-2 mb-3">
+                <h3 class="mb-2">Courses</h3>
+                <ul class="">
+                    {% for i in career.courses.split(",") %}
+                        <li class="">{{ i }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="mt-4 mb-3">
+                <h3 class="mb-2">Institutions</h3>
+                <ul class="">
+                    {% for i in career.institutions.split(",") %}
+                        <li class="">{{ i }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="mt-4 mb-3">
+                <h3 class="mb-2">Entrance Exams</h3>
+                <ul class="">
+                    {% for i in career.entrance_exams.split(",") %}
+                        <li class="">{{ i }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
