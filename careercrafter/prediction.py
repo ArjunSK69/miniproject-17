@@ -5,8 +5,8 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 # Load the datasets
-personality_dataset = pd.read_csv('16P.csv', encoding='cp1252')
-career_dataset = pd.read_csv('./career.csv')  # Replace 'career_dataset.csv' with your career dataset filename
+personality_dataset = pd.read_csv('./16P.csv', encoding='cp1252')
+career_dataset = pd.read_csv('./career.csv', encoding='iso-8859-1')  # Replace 'career_dataset.csv' with your career dataset filename
 
 # Preprocess the personality dataset
 encoder = LabelEncoder()

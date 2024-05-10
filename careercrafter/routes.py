@@ -191,3 +191,16 @@ def result():
 def career(title):
     career = careers.query.get_or_404(title)
     return render_template('career.html', title=career.title, career=career)
+
+
+@app.errorhandler(404)
+def error_404(error):
+    return render_template('404.html'), 404
+
+@app.errorhandler(403)
+def error_403(error):
+    return render_template('404.html'), 403
+
+@app.errorhandler(500)
+def error_500(error):
+    return render_template('404.html'), 500
