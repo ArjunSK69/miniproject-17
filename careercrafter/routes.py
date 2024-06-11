@@ -1,7 +1,7 @@
 from flask import render_template, url_for, flash, redirect, request
 from careercrafter import app, db, bcrypt, mail
 from careercrafter.forms import RegistrationForm, LoginForm, RequestResetForm, ResetPasswordForm, VerifyOtpForm
-from careercrafter.models import users, questions, careers, d
+from careercrafter.models import users, careers, d
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
 import random
@@ -13,8 +13,7 @@ from careercrafter.prediction import X_personality, knn_personality, encoder, ca
 @app.route('/')
 @app.route('/home')
 def home():
-    question = questions.query.all()
-    return render_template('home.htm', question=question)
+    return render_template('home.htm')
 
 
 @app.route('/login', methods=['GET', 'POST'])

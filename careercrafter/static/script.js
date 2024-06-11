@@ -1,7 +1,10 @@
 var volumeSliders = document.querySelectorAll(".volume-slider");
 var para = document.querySelectorAll(".para");
 var currentGroup = 1;
-
+var loader = document.getElementById('preloader');
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+})
 
 function updateSliderStyleAndText(slider, index, currentGroup) {
   var colors = ["darkgreen", "green", "lightgreen", "blue", "coral", "orangered", "red"];
@@ -54,13 +57,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (group === 1) {
       backButton.disabled = true;
-  } else {
-      backButton.style.display = 'block';
-  }
+    } else {
+        backButton.disabled = false;
+    }
 
   // Display or hide next and submit buttons based on the group
   if (group < 6) { // Assuming there are 60 questions divided into 6 groups of 10
-      nextButton.style.display = 'block';
+      nextButton.disabled = true;
       submitButton.style.display = 'none';
   } else {
       nextButton.style.display = 'none';

@@ -12,13 +12,16 @@
         <title>Career Crafter</title>
     {% endif %}
 </head>
-<body>
+<body onload="myfunc()">
+  <div id="preloader">
+
+  </div>
 
   <div class="body-section">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="myNavbar" style="background-color: #fff;">
       <div class="container body-box">
           <div class="d-flex flex-column text-center">
-            <a class="navbar-brand" href="#"><img class="logo rounded-circle" src="../static/logo.jpeg"></a>
+            <a class="navbar-brand" href="{{ url_for('home') }}"><img class="logo rounded-circle" src="../static/logo.jpeg"></a>
             <h5 class="d-none d-lg-block">Career Crafter</h5>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +59,7 @@
     {% block content %}{% endblock %}
 
       <!-- footer section -->
-    <!-- <div class="footer bg-dark">
+    <div class="footer bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex flex-column justify-content-center">
@@ -66,7 +69,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

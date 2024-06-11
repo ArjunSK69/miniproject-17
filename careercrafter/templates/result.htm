@@ -9,7 +9,7 @@
                     <h5>Description</h5>
                     <p class="">{{ description }}</p>
                     <div class="text-center mb-4">
-                        <p class="result-p lead">Predicted Careers:</p>
+                        <p class="result-p">Careers recommendation on the basis of your personality type is given below  'click' them and know more :</p>
                         <div class="result-ul list-group">
                             {% for career in predicted_career %}
                                 <a href="{{ url_for('career', title=career) }}" class="btn btn-dark rounded-0 border-bottom">{{ career }}</a>

@@ -3,8 +3,19 @@
 *{
   font-family: 'Poppins';
 }
+
+#preloader{
+  height: 100vh;
+  width: 100%;
+  background: #000 url('./loader.gif') no-repeat center center;
+  background-size: 15%;
+  position: fixed;
+  z-index: 100;
+}
+
+
 .body-section{
-  background: linear-gradient(to bottom, #ffffff,silver,grey);
+  background: linear-gradient(to bottom, #ffffff,silver,grey,#ffffff);
 }
 .navbar{
   position: relative;
@@ -117,6 +128,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   user-select: none;
 }
+.rowbox{
+  width: 75%;
+}
 .q-box{
   font-size: large;
 }
@@ -177,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 .result-p {
   margin-bottom: 20px;
   color: #555;
+  font-size: medium;
 }
 
 
@@ -227,6 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .rowbox{
       padding: 10px;
+      width: 100%;
   }
   .q-box{
       padding: 10px 8px 15px;
@@ -263,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .rowbox{
       padding: 10px;
+      width: 100%;
   }
   .q-box{
       padding: 10px 8px 15px;
@@ -298,6 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .rowbox{
       padding: 10px;
+      width: 100%;
   }
   .q-box{
       padding: 10px 8px 15px;
