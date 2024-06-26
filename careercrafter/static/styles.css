@@ -262,6 +262,16 @@ h1, h2, h3, h4, h5, h6 {
   .index-btn{
     width: 40%;
   }
+  .header{
+    position: sticky;
+    top: 86px;
+    background-color: #333;
+    color: #fff;
+    font-size: medium;
+    user-select: none;
+    border-radius: 5px;
+    z-index: 1029;
+  }
   
 }
 @media screen and (max-width: 376px){
